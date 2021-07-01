@@ -9,7 +9,7 @@ namespace Tasker
     public class Task
     {
         [BindProperty]
-        public Task newTask { get; set; }
+        public Task NewTask { get; set; }
 
 
         public int Id { get; set; }
